@@ -1,5 +1,9 @@
 # 🛍️ Customer Segmentation & Recommendation System
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/SIDDHI-001/Customer-Segmentation-Recommendation/blob/main/Final_Project_Customer_Segmentation.ipynb)
+
+
 ## 📌 Project Overview
 This project demonstrates **AI-powered customer segmentation** and **product recommendation** using clustering techniques (K-Means, DBSCAN) and a simple recommendation engine.  
 

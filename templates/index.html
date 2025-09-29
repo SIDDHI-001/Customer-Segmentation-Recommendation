@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RetailRocket Recommender</title>
+</head>
+<body>
+    <h1>RetailRocket Recommender System</h1>
+    <form method="post">
+        <label>Enter User ID:</label>
+        <input type="text" name="userid">
+        <button type="submit">Get Recommendations</button>
+    </form>
+
+    {% if recs %}
+        <h2>Recommendations:</h2>
+        <ul>
+            {% for r in recs %}
+                <li>{{ r }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
